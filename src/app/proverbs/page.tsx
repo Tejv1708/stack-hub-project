@@ -7,7 +7,7 @@ export default async function proverbs() {
   const proverbs = await getAllProverbs();
 
   return (
-    <div className="mt-10 ] ">
+    <div className="mt-10">
       <h1 className=" mb-4 text-4xl font-bold text-center">All Proverbs</h1>
       {proverbs.map((item: any) => {
         return (
